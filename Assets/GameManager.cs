@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Hole hole;
     private void Start()
     {
-        // gameOverPanel.SetActive(false);
+        gameOverPanel.SetActive(false);
     }
     private void Update()
     {
